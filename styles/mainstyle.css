@@ -36,11 +36,13 @@ main img {
    
 }
 
+
 p {
     padding: 0;
     margin: 20px;
     text-align: justify;
     line-height: 25px;
+    color: #1D2B53;   
 }
 
 h2 {
@@ -53,10 +55,14 @@ h2 {
     font-weight: bold;
 }
 
-footer {
-    margin-top: 20px;
-    border-top: 1px solid #000;
+footer p{
+    display: block;
+    padding-top: 10px;
+    border-top: 2px solid #000;
     text-align: center;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif
+
 }
 
 /*Class Selectors*/
@@ -65,7 +71,7 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,0.1);
     padding: 1rem;
-    background-color: #4536;
+    background-color: #D9EDBF;
     color: #12372A;
 }
 
@@ -79,13 +85,14 @@ aside h2 {
 main ul li {
     list-style-type: none;
     margin:5px;
+    padding: 5px;
 }
 
 main ul li a {
     text-decoration: none;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:black;
+    color:#1D2B53;  
    
 
 }
@@ -130,6 +137,3 @@ aside {
     grid-column: 1;
     grid-row: 1;
 }
-
-
-
