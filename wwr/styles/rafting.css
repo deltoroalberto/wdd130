@@ -5,8 +5,6 @@
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
 :root {
     --primary-color: #F9EFDB;
     --secondary-color:#9DBC98;
@@ -38,7 +36,6 @@ header img {
 }
 
 header nav{
-    margin:center;
     display: flex;
     flex-direction: row;
     justify-content: center;
